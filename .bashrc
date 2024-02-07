@@ -43,7 +43,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -95,12 +95,15 @@ alias l='ls -CF'
 # self add aliases
 alias buildtoolsver='gcc --version && g++ --version && make --version && gdb --version'
 alias termref='source ~/.bashrc'
-alias glogoff='gnome-session-quit --logout --no-prompt --force'
 alias dwmcompile='clear && sudo make clean install'
 alias clock='tty-clock -sxcbt'
-alias py='python3'
-alias neofetch='neofetch --ascii_distro Arch'
 alias del='rm -rf'
+# Archlinux aliases
+#alias install='sudo pacman -Sy --noconfirm'
+#alias upgrade='sudo pacman -Syu --noconfirm'
+# Debian/Ubuntu aliases
+#alias neofetch='neofetch --ascii_distro Arch'
+#alias glogoff='gnome-session-quit --logout --no-prompt --force'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
