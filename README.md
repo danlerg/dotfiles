@@ -1,4 +1,3 @@
-.dotfiles.
 
 ## Used programs:
 - tty-clock
@@ -7,3 +6,4 @@
 - cava
 - alacritty
 - nvim
+- thunar / lf
