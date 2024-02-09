@@ -101,9 +101,11 @@ alias del='rm -rf'
 # Archlinux aliases
 #alias install='sudo pacman -Sy --noconfirm'
 #alias upgrade='sudo pacman -Syu --noconfirm'
+#alias remove='sudo pacman -Rs --noconfirm'
 # Debian/Ubuntu aliases
 #alias neofetch='neofetch --ascii_distro Arch'
 #alias glogoff='gnome-session-quit --logout --no-prompt --force'
+#alias install='sudo apt install -y'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
